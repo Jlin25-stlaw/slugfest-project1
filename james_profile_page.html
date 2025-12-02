@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James Profile Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f7;
+      margin: 0;
+      padding: 0;
+    }
+    .profile-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .pfp {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 28px;
+    }
+    .bio {
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-top: 25px;
+    }
+    .slime-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .slime-card {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 14px;
+      border: 1px solid #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <img src="jamespfp.jpg" alt="Profile Picture" class="pfp" />
+    <h1>James</h1>
+    <p class="bio">Pro Slime Trainer • Speed Runner • Chill Vibes Only</p>
+
+    <p class="section-title">James' Slimes</p>
+    <div class="slime-grid">
+      <div class="slime-card">Ice Slime<br>Lvl 18</div>
+      <div class="slime-card">Rock Slime<br>Lvl 12</div>
+      <div class="slime-card">Thunder Slime<br>Lvl 25</div>
+      <div class="slime-card">Toxic Slime<br>Lvl 19</div>
+      <div class="slime-card">Spirit Slime<br>Lvl 7</div>
+      <div class="slime-card">Diamond Slime<br>Lvl 31</div>
+    </div>
+
+    <p class="section-title">About James</p>
+    <p>James loves grinding levels, collecting rare slimes, and battling friends to climb the leaderboard.</p>
+  </div>
+</body>
+</html>
